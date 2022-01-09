@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    color: #1f2020;
+  }
+  p{
+  font-weight: 500;
+  }
+
+.datos{
+    width: 440px;
+    height: 100px;
+    margin-left: 80px;
+    }
+
+    .fon{
+       margin-left: 500px;
+        margin-top:10px;
+        width: 410px;
+        height: 400px;
+      }
+
+     .navi nav{
+        margin-top: 100px;
+        background-color: #009999;
+     }
+
+      a{
+          color: white;
+          font-size: 15px;
+         
+      }
+
+     .close{
+         background-color: red;
+     }
+
+     .modal-footer input{
+        background-color: white;
+        color: black;
+        border: 2px solid #009999; 
+        padding: 7px 15px;
+        font-weight: bold;
+        color: #333333;
+      
+     }
+
+     .modal-footer button{
+        background-color: white;
+        color: black;
+        border: 2px solid #009999; 
+        padding: 7px 15px;
+        font-weight: bold;
+        color: #333333;
+     }
+
+     .modal-body label{
+font-weight: bold;
+color: #333333;
+     }
+
+     .modal-body input[type=text],[type=password] {
+        border: none;
+        border-bottom: 2px solid #009999;
+     }
+
+     .modal-footer{
+         align-items: left;
+     }
+
+     h3 .modal-title{
+         font-weight: bold;
+     }

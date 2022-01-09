@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img img{
+  width: 500px;
+  
+}
+.avatar{
+    width: 340px;
+    height: 170px;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+form{
+    width: 360px;
+    font-weight: bold;
+    color: #333333;
+}
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333333;
+}
+
+input[type=text],[type=password] {
+    border: none;
+    border-bottom: 2px solid #e6e600;
+  }
+
+  select{
+      border: none;
+      border-bottom: 2px solid #e6e600 ;
+      color: #333333;
+      
+  }
+  input[type=submit],[type=reset] {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    padding: 7px 15px;
+    font-weight: bold;
+    color: #333333;
+  }
+  a{
+      color: #009999;
+  }
+.error{
+    color: #cc0000;
+}

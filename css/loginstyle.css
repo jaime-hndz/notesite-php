@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wave{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img img{
+  width: 500px;
+
+}
+.avatar{
+    width: 335px;
+    height: 170px;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+form{
+    width: 360px;
+    font-weight: bold;
+    color: #333333;
+}
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333333;
+}
+
+input[type=text],[type=password] {
+    border: none;
+    border-bottom: 2px solid #fdaa02;
+  }
+
+  input[type=password]{
+      margin-left: 20px;
+  }
+
+  select{
+      border: none;
+      border-bottom: 2px solid #fdaa02 ;
+      color: #333333;
+
+  }
+  input[type=submit],[type=reset] {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 179,54); /* Green */
+    padding: 7px 15px;
+    font-weight: bold;
+    color: #333333;
+  }
+  button {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 179,54); /* Green */
+    padding: 7px 15px;
+    font-weight: bold;
+    color: #333333;
+  }
+  a{
+      color: rgb(0, 153,153);
+  }
+.error{
+    color: #cc0000;
+   background: transparent;
+}
+
+h3{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px){
+    .container{
+        grid-gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    form{
+        width: 290px;
+    }
+
+    form h2{
+      font-size: 2.4rem;
+      margin: 8px 0;
+    }
+
+   .img img{
+       width: 400px;
+   }
+}
+
+@media screen and (max-width: 900px){
+.img{
+    display: none;
+}
+.container{
+    grid-template-columns: 1fr;
+}
+.wave{
+    display: none;
+
+}
+
+.login-container{
+    justify-content: center;
+}
+}

@@ -1,0 +1,99 @@
+thead{
+    background-color: #fdaa02;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+
+  }
+  tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+    th, td {
+        border-bottom: 1px solid #ddd;
+      }
+
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Ubuntu', sans-serif;
+    }
+.tabla{
+  width: 830px;
+  height: 640px;
+margin-left: 20px;
+margin-top: 170px;
+top: -180px;
+}
+
+.fon{
+  margin-right:30px;
+  margin-top: 300px;
+  width: 310px;
+  height: 375px;
+}
+
+.datos{
+  width: 440px;
+  height: 100px;
+margin-left: 80px;
+}
+h1{
+  font-weight: bold;
+  color: #1f2020;
+}
+p{
+font-weight: 500;
+}
+
+.doc{
+
+  width: 670px;
+  height: 230px;
+margin-left: 290px;
+margin-top: -670px;
+margin-right: 240px;
+}
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #fdaa02;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: #333333;
+
+}
+input[type=submit],[type=reset] {
+  background-color: white;
+  color: black;
+  border: 2px solid #fdaa02;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: #333333;
+}
+
+input[type=text],[type=password] {
+  border: none;
+  border-bottom: 2px solid #fdaa02;
+}
+
+.modal-body label{
+  font-weight: bold;
+  color: #333333;
+}
+.impri a{
+  color: #333333;
+}
+
+.impri button{
+  margin-left: 370px;
+}
